@@ -24,7 +24,7 @@ const Checkout = () => {
   const handlePayNow = async () => {
     try {
       const res = await fetch(
-        "https://red-thoughtful-moth.cyclic.app/api/saveItem",
+        "https://lazy-jade-shark.cyclic.app/api/saveItem",
         {
           method: "POST",
           headers: {
